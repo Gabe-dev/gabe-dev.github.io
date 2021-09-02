@@ -61,19 +61,6 @@ img {
     top: 75px;
 }
 
-#banner {
-    width: 640px;
-    height: 197px;
-    line-height: 72px;
-    background-color: #3A4042;
-    box-shadow: 10px 10px 0px #000;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 379px;
-    transform: translate(-50%);
-}
-
 #buttons {
     width: 640px;
     height: 60px;
