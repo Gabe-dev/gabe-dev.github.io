@@ -74,19 +74,8 @@ img {
     transform: translate(-50%);
 }
 
-#title-banner {
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: #31763B;
-    text-shadow: 5px 5px 0px #000;
-    font-weight: 400;
-    position: absolute;
-    top: 54px;
-    left: 58px;
-}
-
 #subtitle-banner {
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-family: "Press Start 2P", sans-serif;
     font-size: 28px;
     color: #FFF;    
     text-shadow: 4px 4px 0px #000;

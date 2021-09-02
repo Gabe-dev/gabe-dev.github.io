@@ -1,0 +1,10 @@
+#title-banner {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    color: #31763B;
+    text-shadow: 5px 5px 0px #000;
+    font-weight: 400;
+    position: absolute;
+    top: 54px;
+    left: 58px;
+}
