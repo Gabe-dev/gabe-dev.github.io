@@ -1,7 +1,56 @@
-.skills {
-    background-color: #1E1F26;
-    height: 810px;
-    border-bottom: 10px solid #000;
-    text-align: center;
-    padding-top: 50px;
+.box_skill {
+    background-repeat: no-repeat;
+    background-position-y: center;
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.box_name_bar {
+    text-align: left;
+    margin-left:  110px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+
+}
+
+.skills .wrapper {
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.wrapper_left{
+   margin-right: 100px;
+}
+
+.html {
+    background-image: url(../../img/ico_html5.png);
+}
+
+.css {
+    background-image: url(../../img/ico_css3.png);
+}
+
+.js {
+    background-image: url(../../img/ico_js.png);
+}
+
+.react {
+    background-image: url(../../img/ico_react.png);
+}
+
+.node_js {
+    background-image: url(../../img/ico_nodejs.png);
+}
+
+.tdd {
+    background-image: url(../../img/ico_tdd.png);
+}
+
+.rest_api {
+    background-image: url(../../img/ico_restapi.png);
+}
+
+.ux {
+    background-image: url(../../img/ico_ux.png);
 }
