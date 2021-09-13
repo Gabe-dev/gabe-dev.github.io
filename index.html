@@ -11,15 +11,16 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/skills.css">
-    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/action.css">
     <link rel="stylesheet" href="css/components/logo.css">
-    <link rel="stylesheet" href="css/components/background_1.css">
-    <link rel="stylesheet" href="css/components/bar.css">
+    <link rel="stylesheet" href="css/components/skill-fd.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
 </head>
 
 <body>
@@ -36,7 +37,7 @@
     <section class="banner">
         <div class="wrapper">
             <div class="box">
-                <h2 class="title">Gabriel David</h2>
+                <h2 class="main-title">Gabriel David</h2>
                 <h3 class="subtitle">FrontEnd Developer</h3>
             </div>
             
@@ -46,63 +47,96 @@
             </div>
         </div>
     </section>
-    <section class="skills background_1">
-        <h2 class="title">Skills</h2>
+    <section class="section">
+        <h2 class="main-title -second">Skills</h2>
+        <div class="wrapper-skill">
+            <article class="skill-fd -html"> 
+                <img class="icon" src="img/ico_html5.png" alt="Logo do HTML5 em pixel art">
 
-        <div class="wrapper">
-            <div class="wrapper_left">
-                <div class="html box_skill"> 
-                    <div class="box_name_bar">
-                        <h3 class="subtitle font_size_skills">HTML</h3>
-                        <div class=bar><div class="progress_bar"></div></div>
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <div class=progress-bar>
+                        <div class="bar"></div>
                     </div>
                 </div>
-                <div class="css box_skill"> 
-                    <div class="box_name_bar">
-                        <h3 class="subtitle font_size_skills">CSS</h3>
-                        <div class=bar><div class="progress_bar"></div></div>
-                    </div>
-                </div>
-                <div class="js box_skill"> 
-                    <div class="box_name_bar">
-                        <h3 class="subtitle font_size_skills">JavaScript</h3>
-                        <div class=bar><div class="progress_bar"></div></div>
-                    </div>
-                </div>
-                <div class="react box_skill"> 
-                    <div class="box_name_bar">
-                        <h3 class="subtitle font_size_skills">React</h3>
-                        <div class=bar><div class="progress_bar"></div></div>
-                    </div>
-                </div>
-            </div>
+            </article>
 
-            <div class="wrapper_right">
-                <div class="node_js box_skill"> 
-                    <div class="box_name_bar">
-                        <h3 class="subtitle font_size_skills">NodeJS</h3>
-                        <div class=bar><div class="progress_bar"></div></div>
+            <article class="skill-fd -nodejs"> 
+                <img class="icon" src="img/ico_nodejs.png" alt="Logo do NodeJS em pixel art">
+                
+                <div class="right">
+                    <h3 class="title">NodeJS</h3>
+                    <div class=progress-bar>
+                        <div class="bar"></div>
                     </div>
                 </div>
-                <div class="tdd box_skill"> 
-                    <div class="box_name_bar">
-                        <h3 class="subtitle font_size_skills">TDD</h3>
-                        <div class=bar><div class="progress_bar"></div></div>
+            </article>
+
+            <article class="skill-fd -css"> 
+                <img class="icon" src="img/ico_css3.png" alt="Logo do CSS3 em pixel art">
+                
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <div class=progress-bar>
+                        <div class="bar"></div>
                     </div>
                 </div>
-                <div class="rest_api box_skill"> 
-                    <div class="box_name_bar">
-                        <h3 class="subtitle font_size_skills">Rest API</h3>
-                        <div class=bar><div class="progress_bar"></div></div>
+            </article>
+
+            <article class="skill-fd -tdd"> 
+                <img class="icon" src="img/ico_tdd.png" alt="Logo do TDD em pixel art">
+                
+                <div class="right">
+                    <h3 class="title">TDD</h3>
+                    <div class=progress-bar>
+                        <div class="bar"></div>
                     </div>
                 </div>
-                <div class="ux box_skill"> 
-                    <div class="box_name_bar">
-                        <h3 class="subtitle font_size_skills">UX</h3>
-                        <div class=bar><div class="progress_bar"></div></div>
+            </article>
+
+            <article class="skill-fd -js"> 
+                <img class="icon" src="img/ico_js.png" alt="Logo do JavaScript em pixel art">
+                
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <div class=progress-bar>
+                        <div class="bar"></div>
                     </div>
                 </div>
-            </div>
+            </article>
+
+            <article class="skill-fd -restapi"> 
+                <img class="icon" src="img/ico_restapi.png" alt="Logo do Rest API em pixel art">
+                
+                <div class="right">
+                    <h3 class="title">Rest API</h3>
+                    <div class=progress-bar>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="skill-fd -react"> 
+                <img class="icon" src="img/ico_react.png" alt="Logo do React em pixel art">
+                
+                <div class="right">
+                    <h3 class="title">React</h3>
+                    <div class=progress-bar>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="skill-fd -ux"> 
+                <img class="icon" src="img/ico_ux.png" alt="Logo do UX em pixel art">
+                
+                <div class="right">
+                    <h3 class="title">UX</h3>
+                    <div class=progress-bar>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </article>
         </div>
     </section>
 </body>
