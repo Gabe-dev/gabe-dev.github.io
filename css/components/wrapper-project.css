@@ -1,0 +1,10 @@
+.wrapper-project {
+    display: flex;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-project .project {
+    margin-right: 156px;
+}
