@@ -1,10 +1,4 @@
 .wrapper-project {
     display: flex;
-    max-width: 1160px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.wrapper-project .card-project {
-    margin-right: 156px;
+    justify-content: space-around;
 }
